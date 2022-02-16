@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="lineamientos.css">
+      <script src="lineamientos.js"></script>
+      <title>Concatenador</title>
+  </head>
+  <body>
+    <main>
+      <div class="contenedor">
+        <nav>
+          <h1>ClipBoard</h1>
+        </nav>
+        <div class="titulopresentacion">
+          <h2>Generar frases para el parte</h2>
+          <p>Acá podes combinar las dos listas desplegables para crear una frase y luego copiarla presionando el botón. Tomé la idea de un archivo que hizo mi estimado compañero Leonardo. Espero que lo disfruten y agradezcanle a él.</p>
+        </div>
+        <div class="formulario">
+          <div class="lista-desplegable">
+            <label for="videoverificacion">VideoVerificación</label> <br>
+            <select name="verificacion" id="cctv">
+              <option disabled selected>Indique lo visualizado.</option>
+              <option value="No se ven anomalias.">No se ven anomalias</option>
+              <option value="No se ve al encargado en el acceso.">Se ve al encargado en el acceso.</option>
+              <option value="Se ve al encargado realizando tareas de limpieza.">Se ve al encargado realizando tareas de limpieza.</option>
+              <option value="Se ve al usuario en el acceso.">Se ve al usuario en el acceso.</option>
+              <option value="Se ve que se realizan tareas de limpieza en el acceso.">Se ve que se realizan tareas de limpieza en el acceso.</option>
+              <option value="Sin visual.">Sin visual.</option>
+              <option value="Puerta cerrada censando abierta.">Puerta cerrada censando abierta.</option>
+              <option value="Puerta completamente abierta.">Puerta completamente abierta.</option>
+              <option value="Mudanza en progreso, sacan elementos.">Mudanza en progreso, sacan elementos.</option>
+              <option value="Mudanza en progreso, ingresan elementos.">Mudanza en progreso, ingresan elementos.</option>
+            </select>
+          </div>
+          <div class="lista-desplegable">
+            <label for="comunicacionTelefonica">Llamado.</label> <br>
+            <select name="llamado" id="call">
+              <option disabled selected>Indique el llamado.</option>
+              <option value="Indica que verificara.">Indica que verificara.</option>
+              <option value="Indica que se ocupara de que verifiquen.">Indica que se ocupara de que verifiquen.</option>
+              <option value="Indica que se ocupara de que verifiquen.">Indica que se ocupara de que verifiquen.</option>
+              <option value="Indica que esta en el acceso y cerrara en unos minutos.">Indica que esta en el acceso y cerrara en unos minutos.</option>
+              <option value="Indica que verificara que no pude verificar.">Indica que verificara que no pude verificar.</option>
+              <option value="Se deja mensaje de voz.">Se deja mensaje de voz.</option>
+              <option value="No se pude establecer comunicacion.">No se pude establecer comunicacion.</option>
+              <option value="No se pude establecer comunicacion, buzon lleno.">No se pude establecer comunicacion, buzon lleno.</option>
+              <option value="No se pude establecer comunicacion, se corta.">No se pude establecer comunicacion, se corta.</option>
+              <option value="LLega el cierre durante la llamada.">LLega el cierre durante la llamada.</option>
+              <option value="LLega el cierre durante el ingreso de otro usuario.">LLega el cierre durante el ingreso de otro usuario.</option>
+              <option value="LLega el cierre durante el egreso de otro usuario.">LLega el cierre durante el egreso de otro usuario.</option>
+              <option value="Cierra durante gestion.">Cierra durante gestion.</option>
+              <option value="Cuando termine de limpiar cerrara.">Cuando termine de limpiar cerrara.</option>
+              <option value="El celular no puede recibir llamados.">El celular no puede recibir llamados.</option>
+              <option value="No se ven anomalias en el edificio.">No se ven anomalias en el edificio.</option>
+              <option value="No se ven anomalias en el edificio.">No se ven anomalias en el edificio.</option>
+              <option value="Llega el cierre durante la gestion.">Llega el cierre durante la gestion.</option>
+              <option value="No corresponde a un abonado en servicio.">No corresponde a un abonado en servicio.</option>
+              <option value="Indica que avisara a alguien para que verifique.">Indica que avisara a alguien para que verifique.</option>
+            </select>
+          </div>
+          <div class="boton">
+            <button onclick="botonConcatenar()">COPIAR FRASE SELECCIONADA</button>
+          </div>
+        </div>
+    </main>
+  </body>
+</html>
