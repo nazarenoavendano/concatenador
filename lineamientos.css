@@ -36,6 +36,7 @@ select {
   margin-top: 10px;
   height: 7vh;
   width: 60vw;
+  font-size: 20px;
 }
 
 button {
