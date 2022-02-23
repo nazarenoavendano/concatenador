@@ -28,12 +28,12 @@ nav {
 
 select {
   margin-top: 10px;
-  width: 300px;
+  width: 50vw;
 }
 
 button {
   height: 30px;
-  width: 300px;
+  width: 50vw;
   padding: 5px;
   margin: 10px;
   color: #f2f2f2;
