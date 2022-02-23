@@ -5,6 +5,10 @@
   font-family: Roboto Mono, monospace;
 }
 
+body {
+  background-color: #fff;
+}
+
 nav {
   background-color: #1c4c96;
   text-align: center;
