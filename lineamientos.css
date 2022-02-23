@@ -37,6 +37,8 @@ select {
   height: 7vh;
   width: 60vw;
   font-size: 20px;
+  background-colour: #000;
+  color: #f2f2f2;
 }
 
 button {
