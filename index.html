@@ -9,13 +9,21 @@
     <title>Naza Frases</title>
   </head>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-          <a href="index.html" class="active">GIA CONCATENADOR</a>
-      </div>
-  </header>
-    <main>
-      <div class="contenedor">
+
+    <div id="particles-js">
+
+    </div>
+    <script src="particles.min.js"></script>
+    <script src="particlesjs-config.json"></script>
+
+    <div class="contenedor"></div>
+      <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">GIA CONCATENADOR</a>
+        </div>
+      </header>
+      <main>
+      
         <div class="formulario">
           <div class="videoverificacion">
             <label for="videoverificacion">CCTV</label> 
@@ -32,7 +40,7 @@
             </select>
             <br>
             <select name="verificacion" id="cctv-2">
-              <option disabled selected value="">¿Qué más? (opcional)</option>
+              <option disabled selected value="">¿Qué visualiza?</option>
               <option value="En sitio.">En sitio.</option>
               <option value="No se encuentra en sitio.">No se encuentra en sitio.</option>
               <option value="Se visualiza limpieza.">Se visualiza limpieza.</option>
@@ -64,7 +72,7 @@
             <br>
 
             <select name="llamado" id="call-2">
-              <option selected disabled value="">¿Y qué más? (opcional)</option>
+              <option selected disabled value="">¿Y qué más?</option>
               <option value="Verificará.">Verificará.</option>
               <option value="Verifica y cierra.">Verifica y cierra.</option>
               <option value="No puede verificar.">No puede verificar.</option>
@@ -82,7 +90,7 @@
             <br>
 
             <select name="llamado" id="call-3">
-              <option selected disabled value="">¿Alguna otra cosa? (opcional)</option>
+              <option selected disabled value="">¿Alguna otra cosa?</option>
               <option value="Verificará.">Verificará.</option>
               <option value="Verifica y cierra.">Verifica y cierra.</option>
               <option value="No puede verificar.">No puede verificar.</option>
@@ -100,14 +108,13 @@
 
           <div class="boton">
             <button onclick="botonConcatena()">COPIAR FRASE</button>
+            <br>
+            <br>
+            <button onclick="location.href = location.href">RESET</button>
           </div>
 
-          <div class="display">
-            <!--<p>Acá quiero mostrar el resultado de la frase que se esté formando en tiempo real, espero poder hacerlo más tarde.</p> -->
-          </div>
-        </div>
-
-      </div>
-    </main>
+        </div>  
+      </main>
+    </div>
   </body>
 </html>
