@@ -58,7 +58,7 @@ button:active {
 }
 
 select {
-  height: 5vh;
+  height: 25px;
   width: 50vw;
   background-color: #434459;
   color: #f2f2f2;
