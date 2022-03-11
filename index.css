@@ -45,6 +45,7 @@ button {
   height: 7vh;
   width: 50vw;
   cursor: pointer;
+  margin:auto;
 }
 
 button::after {
