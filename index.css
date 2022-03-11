@@ -42,7 +42,7 @@ body{
 button {
   background-color: #434459;
   color: #f2f2f2;
-  height: 7vh;
+  height: 30px;
   width: 50vw;
   cursor: pointer;
   margin:auto;
