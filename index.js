@@ -9,7 +9,7 @@ function botonConcatena() {
 
 
 
-  navigator.clipboard.writeText("En visualización: " + Verificacion.value + " " + VerificacionDos.value + " " + "\nResultado del llamado: " + Llamado.value + LlamadoDos.value + LlamadoTres.value);
+  navigator.clipboard.writeText("En visualización: " + Verificacion.value + " " + VerificacionDos.value + " " + "Resultado del llamado: " + Llamado.value + LlamadoDos.value + LlamadoTres.value);
 }
 
 
