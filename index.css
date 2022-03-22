@@ -58,11 +58,20 @@ button:active {
   color: #0B0D26;
 }
 
-select,  input {
+select {
   height: 25px;
   width: 50vw;
   background-color: #434459;
   color: #f2f2f2;
+  margin: 7px 0px 0px 0px;
+  cursor: pointer;
+}
+
+input {
+  height: 25px;
+  width: 50vw;
+  background-color:white;
+  color: black;
   margin: 7px 0px 0px 0px;
   cursor: pointer;
 }
